@@ -1,0 +1,83 @@
+@import '../scss/variables';
+@import '../fonts/fonts';
+body {
+    direction: rtl;
+    font-family: "IRANSans";
+    // background-color: $color-1;
+}
+
+.color-font {
+    color: $color-5;
+}
+
+.one-color {
+    background-color: $color-1;
+}
+
+.two-color {
+    background-color: $color-1 * 2;
+}
+
+.three-color {
+    background-color: $color-2;
+}
+
+.four-color {
+    background-color: $color-4 * 1.2;
+    color: $color-5;
+}
+
+.linkfuc {
+    transition: 0.8s;
+    transition-property: color, transform;
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: $color-3;
+}
+
+footer p {
+    margin-bottom: .25rem;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
