@@ -1,0 +1,9 @@
+    .bd-placeholder-img {
+        transition: width 1s;
+        &:hover {
+            width: 320px;
+            margin: auto;
+            border-radius: 11px;
+            opacity: 0.8;
+        }
+    }

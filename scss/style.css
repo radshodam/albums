@@ -38,6 +38,18 @@
   src: url("../fonts/eot/IRANSansWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/woff2/IRANSansWeb.woff2") format("woff2"), url("../fonts/woff/IRANSansWeb.woff") format("woff"), url("../fonts/ttf/IRANSansWeb.ttf") format("truetype");
 }
 
+.bd-placeholder-img {
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.bd-placeholder-img:hover {
+  width: 320px;
+  margin: auto;
+  border-radius: 11px;
+  opacity: 0.8;
+}
+
 body {
   direction: rtl;
   font-family: "IRANSans";
